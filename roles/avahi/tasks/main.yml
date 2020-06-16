@@ -1,0 +1,4 @@
+- name: Avahi - install Avahi
+  apt:
+    name: avahi-daemon
+    cache_valid_time: 3600
